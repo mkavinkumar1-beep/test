@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "method": "OpenChemIE.extract_reactions_from_text_in_pdf",
+    "num_pages": 1,
+    "elapsed_seconds": 5.784,
+    "model": {
+      "status": "ready",
+      "device": "cuda",
+      "device_name": "NVIDIA RTX A500 Laptop GPU",
+      "torch_version": "1.13.1+cu117",
+      "cuda_available": true,
+      "cuda_version": "11.7",
+      "loaded": [
+        "pdfparser",
+        "rxnscribe"
+      ],
+      "layout_checkpoint": "C:\\Users\\kavin.kum016\\.cache\\huggingface\\hub\\models--layoutparser--efficientdet\\snapshots\\98c70a9ac8e021a7b52132828f5ca5765d2d8b0a\\PubLayNet\\tf_efficientdet_d1\\publaynet-tf_efficientdet_d1.pth.tar",
+      "load_seconds": 9.467
+    },
+    "page_results": 1,
+    "reaction_sentence_counts_by_page": [
+      0
+    ],
+    "total_reaction_sentences": 0
+  },
+  "results": [
+    {
+      "page": 1,
+      "reactions": []
+    }
+  ]
+}

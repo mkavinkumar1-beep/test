@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "method": "OpenChemIE.extract_molecules_from_text_in_pdf",
+    "batch_size": 8,
+    "num_pages": 1,
+    "elapsed_seconds": 28.392,
+    "model": {
+      "status": "ready",
+      "device": "cuda",
+      "device_name": "NVIDIA RTX A500 Laptop GPU",
+      "torch_version": "1.13.1+cu117",
+      "cuda_available": true,
+      "cuda_version": "11.7",
+      "loaded": [
+        "pdfparser",
+        "rxnscribe"
+      ],
+      "layout_checkpoint": "C:\\Users\\kavin.kum016\\.cache\\huggingface\\hub\\models--layoutparser--efficientdet\\snapshots\\98c70a9ac8e021a7b52132828f5ca5765d2d8b0a\\PubLayNet\\tf_efficientdet_d1\\publaynet-tf_efficientdet_d1.pth.tar",
+      "load_seconds": 9.467
+    },
+    "page_results": 1,
+    "paragraph_counts_by_page": [
+      17
+    ],
+    "label_counts_by_page": [
+      1
+    ],
+    "total_labels": 1
+  },
+  "results": [
+    {
+      "molecules": [
+        {
+          "text": "Made available for a limited time for personal research and study only License.",
+          "labels": []
+        },
+        {
+          "text": "pubs.",
+          "labels": []
+        },
+        {
+          "text": "Article.",
+          "labels": []
+        },
+        {
+          "text": "Peculiar Reaction Products and Mechanisms Revisited with Machine Learning-Augmented Computational NMR Ivan M. Novitskiy and Andrei G. Kutateladze* Cite This: J. Org. Chem. 2022, 87, 8589−8598.",
+          "labels": []
+        },
+        {
+          "text": "Downloaded via 137.83.223.52 on July 26, 2022 at 06:44:38 (UTC). See https://pubs. for options on how to legitimately share published articles.",
+          "labels": []
+        },
+        {
+          "text": "ACCESS.",
+          "labels": []
+        },
+        {
+          "text": "Metrics & More.",
+          "labels": []
+        },
+        {
+          "text": "Read Online.",
+          "labels": []
+        },
+        {
+          "text": "Article Recommendations.",
+          "labels": []
+        },
+        {
+          "text": "sı Supporting Information *.",
+          "labels": []
+        },
+        {
+          "text": "ABSTRACT: DU8ML, a fast and accurate machine learning-augmented density functional theory (DFT) method for computing nuclear magnetic resonance (NMR) spectra, proved eﬀective for high-throughput revision of misassigned natural products. In this paper, we disclose another important aspect of its application: correction of unusual reaction mechanisms originally proposed because of incorrect product structures.",
+          "labels": []
+        },
+        {
+          "text": "■.",
+          "labels": []
+        },
+        {
+          "text": "INTRODUCTION Structure elucidation of products of chemical reactions plays a very special role in chemical sciences, including mechanistic organic chemistry. Self-evidently, a sensible mechanistic rationale must account for the observed products, and that is where things get complicated if the structures of reaction products are misassigned. Nuclear magnetic resonance (NMR), as the most informative analytical tool for solution structure elucidation, is clearly experiencing a renaissance due to signiﬁcant advances in novel pulse sequences and multidimensional experiments. Concurrently, computational NMR has matured and become user-friendly to a point that it is more and more broadly used by the practitioners in the ﬁeld as a routine tool. This is true for both ab initio/density functional theory (DFT) methods2 and a group of computer-aided structure elucidators, CASEs, which normally rely on fast neural network algorithms but also are increasingly utilizing DFT. While such calculations are more commonly used to support structure elucidation of natural products, they are also used in assigning structures of synthetic products. We have developed a machine learning-augmented DFT method for computational NMR, DU8ML,5 which proved fast and accurate in revisions of many important natural products. Our approach is to “label” the substructure fragments, responsible for major deviations of the DFT-calculated values, with the appropriate SMARTS strings6 and train the machine on a large set of reliable experimental nuclear spin coupling © 2022 American Chemical Society.",
+          "labels": []
+        },
+        {
+          "text": "constants and chemical shifts to recognize the discrepancies and correct them. In 2014, we expanded on Bally and Rablen’s idea7 of scaling Fermi contacts and developed a fast and accurate method for computing nuclear spin−spin coupling constants based on a substructure-aware scaling. Later, we applied a similar methodology for calculations of chemical shifts. Most notably, for molecules containing heavy atoms, e. halogens, this pragmatic approach circumvented the need to deploy expensive spin−orbit coupling, SOC, calculations. All in all, DU8ML together with its predecessor DU8+ accounted for hundreds of revised structures. In this work, we discuss the important role of DU8ML in helping to avoid incorrect mechanistic inferences based on the erroneous interpretation of the product structure. In short, we examined unusual reactions and reaction products reported in the literature and found a number of ﬂawed reaction mechanisms put forward because of inaccurate structure elucidation work. Received: March 31, 2022 Published: June 18, 2022.",
+          "labels": [
+            [
+              "FAMILY",
+              [
+                417,
+                425
+              ]
+            ]
+          ]
+        },
+        {
+          "text": "8589.",
+          "labels": []
+        },
+        {
+          "text": "https://doi. J. Org. Chem. 2022, 87, 8589−8598.",
+          "labels": []
+        },
+        {
+          "text": "",
+          "labels": []
+        }
+      ],
+      "page": 1
+    }
+  ]
+}

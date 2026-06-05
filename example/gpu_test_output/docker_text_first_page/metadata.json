@@ -1,0 +1,22 @@
+{
+  "method": "combined OpenChemIE PDF extraction",
+  "num_pages": 1,
+  "include_figures": false,
+  "include_text_reactions": false,
+  "include_text_molecules": true,
+  "model": {
+    "status": "ready",
+    "device": "cuda",
+    "device_name": "NVIDIA RTX A500 Laptop GPU",
+    "torch_version": "2.1.2+cu121",
+    "cuda_available": true,
+    "cuda_version": "12.1",
+    "loaded": [
+      "pdfparser",
+      "rxnscribe"
+    ],
+    "layout_checkpoint": "/app/.cache/huggingface/hub/models--layoutparser--efficientdet/snapshots/98c70a9ac8e021a7b52132828f5ca5765d2d8b0a/PubLayNet/tf_efficientdet_d1/publaynet-tf_efficientdet_d1.pth.tar",
+    "load_seconds": 176.654
+  },
+  "elapsed_seconds": 168.062
+}

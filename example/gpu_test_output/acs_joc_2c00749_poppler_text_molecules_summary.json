@@ -1,0 +1,291 @@
+{
+  "pdf": "C:\\Users\\kavin.kum016\\Documents\\priya_project\\OpenChemIE\\example\\acs.joc.2c00749.pdf",
+  "method": "OpenChemIE.extract_molecules_from_text_in_pdf",
+  "pdftotext_module": "C:\\Users\\kavin.kum016\\Documents\\priya_project\\OpenChemIE\\.venv310\\Lib\\site-packages\\pdftotext.py",
+  "pdftotext_version": "poppler-cli-compat",
+  "torch_version": "1.13.1+cu117",
+  "cuda_available": true,
+  "cuda_version": "11.7",
+  "device_name": "NVIDIA RTX A500 Laptop GPU",
+  "model_device": "cuda",
+  "page_results": 10,
+  "paragraph_counts_by_page": [
+    17,
+    12,
+    11,
+    10,
+    9,
+    8,
+    11,
+    23,
+    7,
+    16
+  ],
+  "label_counts_by_page": [
+    1,
+    16,
+    41,
+    28,
+    38,
+    46,
+    17,
+    4,
+    16,
+    18
+  ],
+  "total_labels": 225,
+  "preview": [
+    {
+      "molecules": [
+        {
+          "text": "Made available for a limited time for personal research and study only License.",
+          "labels": []
+        },
+        {
+          "text": "pubs.",
+          "labels": []
+        },
+        {
+          "text": "Article.",
+          "labels": []
+        },
+        {
+          "text": "Peculiar Reaction Products and Mechanisms Revisited with Machine Learning-Augmented Computational NMR Ivan M. Novitskiy and Andrei G. Kutateladze* Cite This: J. Org. Chem. 2022, 87, 8589\u22128598.",
+          "labels": []
+        },
+        {
+          "text": "Downloaded via 137.83.223.52 on July 26, 2022 at 06:44:38 (UTC). See https://pubs. for options on how to legitimately share published articles.",
+          "labels": []
+        },
+        {
+          "text": "ACCESS.",
+          "labels": []
+        },
+        {
+          "text": "Metrics & More.",
+          "labels": []
+        },
+        {
+          "text": "Read Online.",
+          "labels": []
+        },
+        {
+          "text": "Article Recommendations.",
+          "labels": []
+        },
+        {
+          "text": "s\u0131 Supporting Information *.",
+          "labels": []
+        },
+        {
+          "text": "ABSTRACT: DU8ML, a fast and accurate machine learning-augmented density functional theory (DFT) method for computing nuclear magnetic resonance (NMR) spectra, proved e\ufb00ective for high-throughput revision of misassigned natural products. In this paper, we disclose another important aspect of its application: correction of unusual reaction mechanisms originally proposed because of incorrect product structures.",
+          "labels": []
+        },
+        {
+          "text": "\u25a0.",
+          "labels": []
+        },
+        {
+          "text": "INTRODUCTION Structure elucidation of products of chemical reactions plays a very special role in chemical sciences, including mechanistic organic chemistry. Self-evidently, a sensible mechanistic rationale must account for the observed products, and that is where things get complicated if the structures of reaction products are misassigned. Nuclear magnetic resonance (NMR), as the most informative analytical tool for solution structure elucidation, is clearly experiencing a renaissance due to signi\ufb01cant advances in novel pulse sequences and multidimensional experiments. Concurrently, computational NMR has matured and become user-friendly to a point that it is more and more broadly used by the practitioners in the \ufb01eld as a routine tool. This is true for both ab initio/density functional theory (DFT) methods2 and a group of computer-aided structure elucidators, CASEs, which normally rely on fast neural network algorithms but also are increasingly utilizing DFT. While such calculations are more commonly used to support structure elucidation of natural products, they are also used in assigning structures of synthetic products. We have developed a machine learning-augmented DFT method for computational NMR, DU8ML,5 which proved fast and accurate in revisions of many important natural products. Our approach is to \u201clabel\u201d the substructure fragments, responsible for major deviations of the DFT-calculated values, with the appropriate SMARTS strings6 and train the machine on a large set of reliable experimental nuclear spin coupling \u00a9 2022 American Chemical Society.",
+          "labels": []
+        },
+        {
+          "text": "constants and chemical shifts to recognize the discrepancies and correct them. In 2014, we expanded on Bally and Rablen\u2019s idea7 of scaling Fermi contacts and developed a fast and accurate method for computing nuclear spin\u2212spin coupling constants based on a substructure-aware scaling. Later, we applied a similar methodology for calculations of chemical shifts. Most notably, for molecules containing heavy atoms, e. halogens, this pragmatic approach circumvented the need to deploy expensive spin\u2212orbit coupling, SOC, calculations. All in all, DU8ML together with its predecessor DU8+ accounted for hundreds of revised structures. In this work, we discuss the important role of DU8ML in helping to avoid incorrect mechanistic inferences based on the erroneous interpretation of the product structure. In short, we examined unusual reactions and reaction products reported in the literature and found a number of \ufb02awed reaction mechanisms put forward because of inaccurate structure elucidation work. Received: March 31, 2022 Published: June 18, 2022.",
+          "labels": [
+            [
+              "FAMILY",
+              [
+                417,
+                425
+              ]
+            ]
+          ]
+        },
+        {
+          "text": "8589.",
+          "labels": []
+        },
+        {
+          "text": "https://doi. J. Org. Chem. 2022, 87, 8589\u22128598.",
+          "labels": []
+        },
+        {
+          "text": "",
+          "labels": []
+        }
+      ],
+      "page": 1
+    },
+    {
+      "molecules": [
+        {
+          "text": "The Journal of Organic Chemistry.",
+          "labels": []
+        },
+        {
+          "text": "\u25a0.",
+          "labels": []
+        },
+        {
+          "text": "pubs.",
+          "labels": []
+        },
+        {
+          "text": "RESULTS AND DISCUSSION Figure 1A shows a recent report of water-mediated intramolecular cyclization/oxidation of \u03b1-carbonyl sulfur ylides for.",
+          "labels": [
+            [
+              "FAMILY",
+              [
+                113,
+                137
+              ]
+            ]
+          ]
+        },
+        {
+          "text": "Article.",
+          "labels": []
+        },
+        {
+          "text": "Corey\u2212Chaykovsky heterocycles shown in Figure 1 are erroneous. Another recent example of an unusual photocatalyzed dehydroxylative amination of hydroquinones with 4-piperidones, sensitized by iron phthalocyanine, is shown in Figure 2.14 The reaction was purported to occur via a ring expansion.",
+          "labels": [
+            [
+              "FAMILY",
+              [
+                144,
+                157
+              ]
+            ],
+            [
+              "FAMILY",
+              [
+                163,
+                176
+              ]
+            ],
+            [
+              "SYSTEMATIC",
+              [
+                192,
+                211
+              ]
+            ]
+          ]
+        },
+        {
+          "text": "Figure 1. Reported formation of cyclic Corey\u2212Chaykovsky-type ylides and DU8ML-driven revision.",
+          "labels": [
+            [
+              "FAMILY",
+              [
+                32,
+                67
+              ]
+            ]
+          ]
+        },
+        {
+          "text": "the synthesis of Corey\u2212Chaykovsky reagent-like heterocycles. The authors evaluated the scope of this reaction, presenting a large table of 24 products. However, both the peculiar product structure and the unusual original mechanistic rationale\ue0d5including the postulated oxathiete 4, its odd ring opening, protonation, and subsequent oxidative coupling of the Corey\u2212Chaykovsky intermediate 6 into the cyclic Corey\u2212 Chaykovsky product 2\ue0d5raised reasonable questions. DU8ML revealed irreconcilable di\ufb00erences between the calculated and experimental 13C chemical shifts for 2. At the same time, product 7 of a 2,3-sigmatropic shift in the less stable ylide 8 (Figure 1D) matched the experimental NMR. We therefore revised product 2 to the shown 2-(methylthiomethoxy)styrene 7. The 2,3-sigmatropic rearrangement of ylides derived from 1 and similar sulfonium salts was described by Ratts and Yao,12 with 13C NMR of 7\ue0d5matching the experimental spectrum of 2\ue0d5later reported by Russell. This leaves no doubts that the.",
+          "labels": [
+            [
+              "FORMULA",
+              [
+                544,
+                547
+              ]
+            ],
+            [
+              "SYSTEMATIC",
+              [
+                739,
+                767
+              ]
+            ],
+            [
+              "SYSTEMATIC",
+              [
+                842,
+                851
+              ]
+            ],
+            [
+              "FORMULA",
+              [
+                897,
+                900
+              ]
+            ]
+          ]
+        },
+        {
+          "text": "Figure 2. Revision of the proposed benzoazocine structure and plausible mechanistic alternatives.",
+          "labels": [
+            [
+              "SYSTEMATIC",
+              [
+                35,
+                47
+              ]
+            ]
+          ]
+        },
+        {
+          "text": "route and produce eight-membered benzolactam products 11. Its scope was found to be rather general, as evidenced by 30 examples. The proposed complex mechanistic rationale necessitated two azetidine intermediates, for example, 12. DU8ML computations showed a very poor match for the computed and experimental 13C chemical shifts, rmsd (\u03b413C) = 10.9 ppm, clearly indicative of misassignment. The search for revision led us to spiro-pyrrolidines 13, which best matched the experimental NMR data. Substituted benzofuranones 8590.",
+          "labels": [
+            [
+              "FAMILY",
+              [
+                33,
+                44
+              ]
+            ],
+            [
+              "TRIVIAL",
+              [
+                189,
+                198
+              ]
+            ],
+            [
+              "FORMULA",
+              [
+                309,
+                312
+              ]
+            ],
+            [
+              "FORMULA",
+              [
+                337,
+                340
+              ]
+            ],
+            [
+              "FAMILY",
+              [
+                425,
+                443
+              ]
+            ],
+            [
+              "FAMILY",
+              [
+                506,
+                520
+              ]
+            ]
+          ]
+        },
+        {
+          "text": "https://doi. J. Org. Chem. 2022, 87, 8589\u22128598.",
+          "labels": []
+        },
+        {
+          "text": "",
+          "labels": []
+        }
+      ],
+      "page": 2
+    }
+  ]
+}

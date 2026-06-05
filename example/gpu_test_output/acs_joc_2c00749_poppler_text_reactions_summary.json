@@ -1,0 +1,119 @@
+{
+  "pdf": "C:\\Users\\kavin.kum016\\Documents\\priya_project\\OpenChemIE\\example\\acs.joc.2c00749.pdf",
+  "method": "OpenChemIE.extract_reactions_from_text_in_pdf",
+  "pdftotext_module": "C:\\Users\\kavin.kum016\\Documents\\priya_project\\OpenChemIE\\.venv310\\Lib\\site-packages\\pdftotext.py",
+  "pdftotext_version": "poppler-cli-compat",
+  "pdftotext_pages": 10,
+  "torch_version": "1.13.1+cu117",
+  "cuda_available": true,
+  "cuda_version": "11.7",
+  "device_count": 1,
+  "device_name": "NVIDIA RTX A500 Laptop GPU",
+  "model_device": "cuda",
+  "page_results": 10,
+  "reaction_sentence_counts_by_page": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "total_reaction_sentences": 3,
+  "preview": [
+    {
+      "page": 1,
+      "reactions": []
+    },
+    {
+      "page": 2,
+      "reactions": []
+    },
+    {
+      "page": 3,
+      "reactions": [
+        {
+          "tokens": [
+            "DDQ",
+            "was",
+            "used",
+            "in",
+            "another",
+            "oxidative",
+            "coupling",
+            "reaction",
+            "between",
+            "cycloheptatriene",
+            "and",
+            "benzoylenamines",
+            "21,",
+            "reportedly",
+            "furnishing",
+            "2-cycloheptatrienylidene-3-oxo-3-phenylpropanal",
+            "23",
+            "(Figure",
+            "3).\n"
+          ],
+          "reactions": [
+            {
+              "Reaction": [
+                [
+                  "oxidative coupling",
+                  5,
+                  6
+                ]
+              ],
+              "Reactants": [
+                [
+                  "cycloheptatriene",
+                  9,
+                  9
+                ],
+                [
+                  "21,",
+                  12,
+                  12
+                ]
+              ],
+              "Product": [
+                "2-cycloheptatrienylidene-3-oxo-3-phenylpropanal",
+                15,
+                15
+              ]
+            },
+            {
+              "Reaction": [
+                [
+                  "oxidative coupling",
+                  5,
+                  6
+                ]
+              ],
+              "Reactants": [
+                [
+                  "cycloheptatriene",
+                  9,
+                  9
+                ],
+                [
+                  "21,",
+                  12,
+                  12
+                ]
+              ],
+              "Product": [
+                "23",
+                16,
+                16
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
